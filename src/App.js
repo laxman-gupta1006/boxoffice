@@ -1,23 +1,21 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import Nav from './components/Nav'
+import Favorite from './pages/Favorite'
+import Home from './pages/Home'
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
       <Switch>
         <Route exact path='/'>
-          This is Home Page
+        <Home/>
         </Route>
         <Route exact path='/favorite'>
-          This is your favorite Moves or stars page
+        <Favorite/>
         </Route>
         <Route>
-          This Page is not available.
+          404 Not Found
         </Route>
       </Switch>
-    </div>
   );
 }
 
