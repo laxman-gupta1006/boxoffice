@@ -8,7 +8,7 @@ export const ShowCard = ({ id, image, name, summary }) => {
      : 'No description';
  
    return (
-     <StyledShowCard>
+     <StyledShowCard key={id}>
        <div className='img-wrapper'>
          <img src={image} alt="show" />
        </div>
