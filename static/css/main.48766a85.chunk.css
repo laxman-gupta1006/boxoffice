@@ -1,0 +1,2 @@
+body{font-family:"Roboto",sans-serif;font-size:18px;margin:0;padding-top:40px}.loader{border:2px solid #f3f3f3;border-top-color:grey;border-radius:50%;width:80px;height:80px;-webkit-animation:spin 1s linear infinite;animation:spin 1s linear infinite}@-webkit-keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}
+/*# sourceMappingURL=main.48766a85.chunk.css.map */
